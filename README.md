@@ -17,16 +17,16 @@ Using OpenCV and MediaPipe to do real-time pose detection using your webcam.
 2. Initialize drawing and pose detection tools
 3. Open webcam (camera index 1, which might be an external webcam)
 4. Run a loop while the camera is active
-5. Read and process each frame
- * Flip horizontally so it behaves like a mirror
- * Convert BGR (OpenCV format) to RGB (MediaPipe format)
- * Run pose estimation
- * Convert back to BGR for OpenCV display
-6. Draw landmarks like joints/body points if pose is detected
- * Overlay body connections
- * Print index and confidence at each joint using cv2.putText
+5. Read and process each frame:
+   - Flip horizontally so it behaves like a mirror
+   - Convert BGR (OpenCV format) to RGB (MediaPipe format)
+   - Run pose estimation
+   - Convert back to BGR for OpenCV display
+6. Draw landmarks like joints/body points if pose is detected:
+   - Overlay body connections
+   - Print index and confidence at each joint using `cv2.putText`
 7. Show image in new window 
-8. Exit the loop by pressing 'esc'
+8. Exit the loop by pressing `esc`
 
 # Output
 Live webcam feed with detected body joints and their confidence values drawn on top.
