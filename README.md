@@ -18,13 +18,13 @@ Using OpenCV and MediaPipe to do real-time pose detection using your webcam.
 3. Open webcam (camera index 1, which might be an external webcam)
 4. Run a loop while the camera is active
 5. Read and process each frame
-* Flip horizontally so it behaves like a mirror
-* Convert BGR (OpenCV format) to RGB (MediaPipe format)
-* Run pose estimation
-* Convert back to BGR for OpenCV display
+ * Flip horizontally so it behaves like a mirror
+ * Convert BGR (OpenCV format) to RGB (MediaPipe format)
+ * Run pose estimation
+ * Convert back to BGR for OpenCV display
 6. Draw landmarks like joints/body points if pose is detected
-* Overlay body connections
-* Print index and confidence at each joint using cv2.putText
+ * Overlay body connections
+ * Print index and confidence at each joint using cv2.putText
 7. Show image in new window 
 8. Exit the loop by pressing 'esc'
 
@@ -50,5 +50,5 @@ pip install opencv-python mediapipe
 If your webcam doesn't turn on, try changing the camera index in cv2.VideoCapture(1) to 0.
 
 ### Exit
-Press ESC key to close the webcam window and stop the program.
+Press `esc` to close the webcam window and stop the program.
 
