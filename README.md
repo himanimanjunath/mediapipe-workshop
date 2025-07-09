@@ -18,7 +18,7 @@ Using OpenCV and MediaPipe to do real-time pose detection using your webcam.
 3. Open webcam (camera index 1, which might be an external webcam)
 4. Run a loop while the camera is active
 5. Read and process each frame:
-- Flip horizontally so it behaves like a mirror
+   - Flip horizontally so it behaves like a mirror
    - Convert BGR (OpenCV format) to RGB (MediaPipe format)
    - Run pose estimation
    - Convert back to BGR for OpenCV display
