@@ -1,7 +1,7 @@
 # Mediapipe Workshop
 Using OpenCV and MediaPipe to do real-time pose detection using your webcam.
 
-![IMG_3571](https://github.com/user-attachments/assets/67b533fe-a875-4445-a2da-7f3f45e5e42a)
+![IMG_3585](https://github.com/user-attachments/assets/79aa8256-905a-47d4-87d1-0472001d19d7)
 
 
 ## Features + How it Works 
