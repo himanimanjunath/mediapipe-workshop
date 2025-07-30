@@ -1,6 +1,9 @@
 # Mediapipe Workshop
 Using OpenCV and MediaPipe to do real-time pose detection using your webcam.
 
+![IMG_3571](https://github.com/user-attachments/assets/67b533fe-a875-4445-a2da-7f3f45e5e42a)
+
+
 ## Features + How it Works 
 * Detects 33 body landmarks (shoulders, knees, etc) using MediaPipe's Pose model 
 * Draws joint connections (landmarks) and labels them in real time using OpenCV
